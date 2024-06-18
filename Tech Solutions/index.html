@@ -22,12 +22,14 @@
 
       <div class="position-relative w-100">
 
-        <img src="../images/header_background/tech_solutions_background.jpg" class="img-fluid" alt="Tech Solutions logo">
+        <img src="../images/header_background/tech_solutions_background.jpg" class="img-fluid shadow" alt="Tech Solutions logo">
 
         <div class="container-fluid position-absolute top-50 start-30 end-30 bg-dark bg-opacity-75 text-white">
 
-          <h1 class="text-center">Tech Solutions</h1>
-          <p class="text-center">Where All Of Your Tech Needs Are Fulfilled</p>
+          <!-- changed to display-1 -->
+          <h1 class="text-center display-1">Tech Solutions</h1>
+          <!-- changed to lead -->
+          <p class="text-center lead">Where All Of Your Tech Needs Are Fulfilled</p>
 
         </div>
 
@@ -37,20 +39,23 @@
     </header>
 
     <!-- services -->
-    <section id="services" class="container-xl">
+    <section id="services" class="container-fluid">
 
-      <h2 class="container text-center fs-1">Services</h2>
+      <!-- changed back ground for services available headings-->
+      
 
-      <div class="container text-center mb-2">
+      <div class="container text-center bg-light text-dark mb-3 rounded-3">
 
-        <div class="row">
+        <h2 class="container text-center bg-light text-dark mb-0 mt-3 p-3 h1">Services Available</h2>
 
-          <div class="col-md-4 col-lg-4">
+        <div class="row g-3 ">
 
-            <h3 class="text-center">Web Design</h3>
+          <div class="col-md-4 col-lg-4 bg-info-subtle mb-2 rounded-2">
+
+            <h3 class="text-center h2">Web Design</h3>
             <img src="../images/services/web_dev.jpg" class="img-fluid shadow rounded" alt="web development team">
 
-            <div class="text-start">
+            <div class="text-start text-body-emphasis">
 
               <p>
                 At Tech Solutions, our teams work diligently to transform your company's vision into a vibrant digital presence. 
@@ -61,13 +66,13 @@
             </div>
 
           </div>
-          <div class="col-sm-12 col-md-4 col-lg-4">
+          <div class="col-sm-12 col-md-4 col-lg-4 bg-info mb-2 rounded-2">
 
-            <h3 class="text-center">Cyber Security</h3>
+            <h3 class="text-center h2">Cyber Security</h3>
 
             <img src="../images/services/cyber_security.jpg" class="img-fluid shadow rounded" alt="cyber security logo">
 
-            <div class="text-start">
+            <div class="text-start text-body-emphasis">
 
               <p>
                 At Tech Solutions, you can rest easy when it comes to your cybersecurity needs. We work around the clock to ensure that you're always 
@@ -78,13 +83,13 @@
             </div>
 
           </div>
-          <div class="col-md-4 col-lg-4">
+          <div class="col-md-4 col-lg-4 bg-info-subtle mb-2 rounded-2">
 
-            <h3 class="text-center">Tech Support</h3>
+            <h3 class="text-center h2">Tech Support</h3>
 
             <img src="../images/services/customesupport.jpg" class="img-fluid shadow rounded" alt="support team">
             
-            <div class="text-start">
+            <div class="text-start text-body-emphasis">
 
               <p>
                 At Tech Solutions, when it comes to any tech-related problem, our team is here to help. Whether it's setting up a printer 
@@ -102,7 +107,7 @@
 
 
       <!-- services form  -->
-      <div class="container-xl mt-8 bg-light text-dark shadow p-3 mb-5 bg-body-tertiary rounded">
+      <div class="container-fluid mt-8 bg-light text-dark shadow p-3 mb-5 bg-body-tertiary rounded">
 
         <form class="row g-1" id="form" method="post">
 
@@ -220,7 +225,7 @@
 
           <div class="col-12">
   
-            <button type="submit" class="btn btn-primary" style="margin-bottom: 1%;">Submit</button>
+            <button type="submit" class="btn btn-primary shadow" style="margin-bottom: 1%;">Submit</button>
   
           </div>
 
@@ -230,9 +235,121 @@
 
     </section>
     
-    <!-- feature about the company-->
-    <section id="featurette" class="container-xl-center m-3">
+    <!-- Our Team -->
+    <section id="team" class="container-fluid-center m-2 p-2 bg-light text-dark rounded shadow">
 
+      <div>
+
+        <h2 class="text-center m-4 h1 bg-dark-subtle rounded shadow">Meet The Team</h2>
+
+        <div class="container text-center">
+
+          <div class="row g-5">
+
+            <div class="col-lg-4 col-md-4 mb-3 py-2 bg-info-subtle rounded shadow">
+
+              <img src="../images/team/jake-nackos.jpg" class="img-fluid shadow rounded" alt="picture of Jake Nackos">
+
+              <h3 class="text-center fs-4">Jake Nackos</h3>
+
+              <h4 class="fs-5">Web Design</h4>
+
+              <p class="text-start fst-italic">
+                Jake Nackos is the head of the web design team. Jake has been with Tech Solutions for 2 years and has assembled a team that 
+                is at the forefront of web design. In the years Jake has been with Tech Solutions, they have consistently gone above and 
+                beyond on every project. In their words, "Every project is a part of me. I must ensure that every pixel is in place; nothing 
+                can be overlooked". You won't find a better team ready to bring your ideas to life on screen than Jake's team.
+              </p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 mb-3 py-2 bg-info rounded shadow ">
+
+              <img src="../images/team/christina-wocintechchat.jpg" class="img-fluid shadow rounded" alt="picture of Christina Wocintechchat">
+
+              <h3 class="text-center fs-4">Christina Wocintechchat</h3>
+
+              <h4 class="fs-5">Tech Support</h4>
+
+              <p class="text-start fst-italic">
+                Christina Wocintechchat is the head of our Tech Support. She has been with Tech Solutions for 8 years and ensures that her 
+                team is ready to handle any problem that comes their way. No problem is too big or small for Christina's highly skilled and 
+                dedicated team. When your software or hardware is on the fritz, don't fret—Christina is here with a helping hand.
+              </p>
+
+            </div>
+
+            <div class="col-lg-4 col-md-4 mb-3 py-2 bg-info-subtle rounded shadow">
+
+              <img src="../images/team/christian-buehner.jpg" class="img-fluid shadow rounded" alt="picture of Christian Buehner">
+
+              <h3 class="text-center fs-4">Christian Buehner</h3>
+
+              <h4 class="fs-5">Cyber Security</h4>
+
+              <p class="text-start fst-italic">
+                Christian Buehner is the head of our cybersecurity team. When it comes to your cybersecurity, Christian is the best in the 
+                business. He has been with Tech Solutions for 10 years. In that time, he has built one of the finest teams in the country—a 
+                group of highly trained individuals who cover all aspects of cybersecurity. His team works tirelessly around the clock to 
+                ensure that your information doesn't fall into the wrong hands.
+              </p>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="table-responsive">
+
+        <table class="container-fluid-center table table-striped table-info table-hover rounded shadow m-0">
+
+          <thead class="container-fluid">
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Department</th>
+              <th scope="col">Years Of Experience</th>
+              <th scope="col">Team Members</th>
+            </tr>
+  
+          </thead>
+  
+          <tbody class="container-fluid">
+  
+            <tr>
+              <th scope="row">Jake Nackos</th>
+              <td>Web Design</td>
+              <td>15</td>
+              <td>12</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Christian Buehner</th>
+              <td>Cyber Security</td>
+              <td>25</td>
+              <td>15</td>
+            </tr>
+
+            <tr>
+              <th scope="row">Christina Wocintechchat</th>
+              <td>Tech Support</td>
+              <td>18</td>
+              <td>35</td>
+            </tr>
+  
+          </tbody>
+  
+        </table>
+
+      </div>
+
+    </section>
+
+    <!-- feature about the company-->
+    <section id="featurette" class="container-fluid-center m-2">
+
+      <!-- changed headings -->
       <h2 class="container text-center">Featurette</h2>
 
       <div class="container-center m-2">
@@ -243,7 +360,7 @@
 
             <img src="../images/featurette/website.jpg" class="img-fluid shadow rounded" alt="web page on a computer">
 
-            <h3 class="text-center">Web Design</h3>
+            <h3 class="text-center h2">Web Design</h3>
 
             <div class="text-start">
 
@@ -262,7 +379,7 @@
 
             <img src="../images/featurette/hacking.jpg" class="img-fluid shadow rounded" alt="Person hacking">
 
-            <h3 class="text-center">Cyber Security</h3>
+            <h3 class="text-center h2">Cyber Security</h3>
 
             <div class="text-start">
 
@@ -279,7 +396,7 @@
           <div class=" col-lg-4 col-md-4">
 
             <img src="../images/featurette/support.jpg" class="img-fluid shadow rounded" alt="helping hand">
-            <h3 class="text-center">Tech Support</h3>
+            <h3 class="text-center h2">Tech Support</h3>
 
             <div class="text-start">
 
@@ -300,9 +417,10 @@
 
     </section>
 
-    <section id="about-us" class="container-xl-center bg-light text-dark shadow p-3 m-2 bg-body-tertiary rounded">
+    <!-- About us -->
+    <section id="about-us" class="container-fluid-center bg-light text-dark shadow p-3 m-2 bg-body-tertiary rounded">
 
-      <h2 class="container text-center">About Us</h2>
+      <h2 class="container text-center h1">About Us</h2>
 
       <div class="container-center text-center m-2">
 
@@ -311,20 +429,24 @@
           <!-- side bar testimonies -->
           <div class="col-sm-12 col-md-4 col-lg-4 bg-dark text-light rounded">
             
-            <h3 class="text-center">Testimonies</h3>
+            <h3 class="text-center h4">Testimonies</h3>
 
-            <div class="text-start">
+            <p>Don't believe us? Here is some first hand testimonies.</p>
 
-              <p>Don't believe us? Here is some first hand testimonies.</p>
+            <div class="text-start lh-1 fw-lighter">
 
-              <h4 class="text-center fs-4">David</h4>
+              <blockquote class="blockquote">
+                <p class="mb-1">                
+                  <img src="../images/testimony/david_test.jpg" class="img-fluid rounded float-end shadow w-50 m-1"  alt="picture of David">
+                  "Tech Solutions delivered on all their promises and more! When a hacker attempted to breach our company's database, they 
+                  swiftly thwarted the attack and brought the hacker to justice. But that's not all—when we established a new department in 
+                  our office, they ensured a seamless setup, allowing us to start work immediately."
+                </p>
 
-              <p>
-                <img src="../images/testimony/david_test.jpg" class="img-fluid rounded float-end shadow w-50 m-1"  alt="picture of David">
-                Tech Solutions delivered on all their promises and more! When a hacker attempted to breach our company's database, they 
-                swiftly thwarted the attack and brought the hacker to justice. But that's not all—when we established a new department in 
-                our office, they ensured a seamless setup, allowing us to start work immediately.
-              </p>
+                <footer class="">
+                  <p class="blockquote-footer mt-1">David CEO</p>
+                </footer>
+              </blockquote>
 
             </div>
 
@@ -333,9 +455,9 @@
           <!-- main about the company -->
           <div class="col-sm-12 col-md-8 col-lg-8">
             
-            <h3 class="text-center">What We Are About</h3>
+            <h3 class="text-center h2">What We Are About</h3>
 
-            <div class="text-start">
+            <div class="text-start fs-3 fw-light">
 
               <p>
                 At Tech Solutions, we are dedicated to delivering top-quality customer service, satisfaction, and excellence in both 
@@ -352,7 +474,58 @@
 
     </section>
 
-    <footer class="container-xxl w-100 bg-dark text-light mt-2">
+    <!-- Photo gallery -->
+    <section>
+
+      <div class="container-center bg-black m-2 p-3 rounded shadow">
+
+        <div class="row g-3">
+
+          <h2 class="text-center ">Tech Solutions Teams In Action</h2>
+
+          <div class="col-sm-4">
+
+              <img src="../images/photo_gallery/brooke-cagle.jpg" class="img-fluid shadow rounded" alt="Image 1">
+
+          </div>
+
+          <div class="col-sm-4">
+
+              <img src="../images/photo_gallery/thisisengineering.jpg" class="img-fluid shadow rounded" alt="Image 2">
+
+          </div>
+
+          <div class="col-sm-4">
+
+              <img src="../images/photo_gallery/arlington-research.jpg" class="img-fluid shadow rounded" alt="Our Support staff">
+
+          </div>
+
+          <div class="col-sm-4">
+
+            <img src="../images/photo_gallery/jefferson-santos.jpg" class="img-fluid shadow rounded" alt="">
+
+          </div>
+
+          <div class="col-sm-4">
+
+            <img src="../images/photo_gallery/christina-wocintechchat-2.jpg" class="img-fluid shadow rounded" alt="">
+
+          </div>
+
+          <div class="col-sm-4">
+
+            <img src="../images/photo_gallery/headway.jpg" class="img-fluid shadow rounded" alt="">
+
+          </div>
+
+      </div>
+
+    </div>
+
+    </section>
+
+    <footer class="container-fluid w-100 bg-dark text-light mt-2">
 
       <div class="container-center text-center  m-0">
 
@@ -363,7 +536,9 @@
             Contact Information
 
             <div class="container text-center w-100">
+
               <div class="row">
+
                 <div class="col-12 my-1">
                   
                   <div>
@@ -371,10 +546,15 @@
                   </div>
 
                 </div>
+
                 <div class="col-12 my-1">
+
                   <div>
+
                     <i class="fa fa-phone" aria-hidden="true"></i> 1-800-999-9999
+
                   </div>
+
                 </div>
 
               </div>
@@ -384,7 +564,7 @@
           </div>
 
           <!-- socials -->
-          <div class="col-lg-4 col-md-4 bg-light text-dark mb-2">
+          <div class="col-lg-4 col-md-4 bg-light text-dark mb-2 rounded-2">
             Social Media
 
             <div class="container text-center fs-3">
@@ -392,15 +572,15 @@
               <div class="row">
 
                 <div class="col-4 my-5 ">
-                  <a href=""><i class="fa fa-facebook-official"></i></a>
+                  <a href="" class="link-primary link-opacity-50-hover"><i class="fa fa-facebook-official"></i></a>
                 </div>
 
                 <div class="col-4 my-5">
-                  <a href=""><i class="fa fa-linkedin" aria-hidden="true"></i></a>
+                  <a href="" class="link-primary link-opacity-50-hover"><i class="fa fa-linkedin" aria-hidden="true"></i></a>
                 </div>
 
                 <div class="col-4 my-5">
-                  <a href=""><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
+                  <a href="" class="link-primary link-opacity-50-hover"><i class="fa fa-twitter-square" aria-hidden="true"></i></a>
                 </div>
 
               </div>
@@ -416,15 +596,20 @@
             <form action="submit" id="news-letter" method="post">
 
               <div class="container text-center">
+
                 <div class="row">
+
                   <div class="col-12">
                     
                     <div class="mb-0 p-0">
+
                       <label for="exampleFormControlInput1" class="form-label">Email address</label>
                       <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+
                     </div>
 
                   </div>
+
                   <div class="col-12">
                     
                     <div class="form-check">
@@ -437,6 +622,7 @@
                     </div>
 
                   </div>
+
                   <div class="col-12 mb-1">
                     
                     <div>
@@ -446,7 +632,10 @@
                     </div>
 
                   </div>
+
+
                 </div>
+
               </div>
 
 
@@ -457,6 +646,21 @@
 
             </form>
 
+
+          </div>
+
+          <div class="col-12 text-center">
+
+            <p>
+              Tech Solutions: where all your tech needs are met, and no one leaves unsatisfied! Our mission is to assist with a smile and 
+              welcome your company into the Tech Solutions family!
+            </p>
+
+          </div>
+
+          <div class="col-12 text-center opacity-25">
+
+            <p>&copy; 2024 Tech Solutions. All rights reserved. </p>
 
           </div>
 

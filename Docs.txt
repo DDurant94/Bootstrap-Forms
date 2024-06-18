@@ -5,77 +5,61 @@ Extensions:
 Bootstrap 4, Font awesome 4, Font Awesome 5 Free & Pro snippets (for my social links)
 Bootstrap 5 Quick Snippets (for all other bootstrap)
 
+Pictures:
+All pictures come from Unsplash.com
+
 
 Questions for this assignment:
-1. Creating a Responsive Service Page with Bootstrap
-Objective:
 
-The aim of this assignment is to apply Bootstrap layout concepts to create a responsive webpage that outlines the services offered by a 
-fictional company, "Tech Solutions." The page should be navigable, and informative, and maintain a professional appearance across various 
-devices.
+1. Exploring Bootstrap Typography and Colors
+Objective:
+The aim of this assignment is to familiarize students with Bootstrap's typography and color classes and their application in web design.
 
 Problem Statement:
 
-Tech Solutions is looking to improve its online presence with a sleek service page that outlines what it offers in a clear and engaging way. 
-The page needs to be responsive, adhering to mobile-first design principles, and should be accessible on all devices without compromising 
-on usability or design.
+As a budding web developer, you are tasked with enhancing the typography and color scheme of a basic web page using Bootstrap. Your goal is 
+to understand how Bootstrap's typography classes can style text elements effectively and how its color palette can be utilized to create 
+visually appealing designs. Note: You can enhance any of the pages created on previous assignments or create a new one, it's up to you!
 
-Task 1: Design the Services Section DONE
-Use the grid system to design a services section that showcases at least three services offered by Tech Solutions. Each service should have 
-an icon/image, a title, and a short description.
+Task 1: Apply Bootstrap typography classes to headings and paragraphs. DONE
 
-Expected Outcome:
-A well-structured services section with equally spaced service cards that stack vertically on smaller screens and display in a row on 
-larger screens.
+Task 2: Utilize Bootstrap color classes to style links and buttons. DONE
 
-Task 2: Create a Contact Form DONE
-End with a contact form that uses Bootstrap form components. The form should include fields for the user's name, email, 
-a selection of the service they are interested in, and a message box.
+Task 3: Experiment with Bootstrap's text alignment and emphasis classes. DONE
 
-Expected Outcome:
-A responsive contact form that is well aligned and aesthetically pleasing, with intuitive input fields that provide a seamless user 
-experience across all devices.
+Task 4: Customize the background and text color of various sections using Bootstrap's color utilities. DONE
 
+Task 5: Create a responsive table with alternate row colors using Bootstrap's table classes. DONE
 
+Expected Outcomes:
+By completing this assignment, students should be able to:
 
-2. Exploring the Power of Bootstrap Grid Containers
+Understand how to apply Bootstrap typography classes to headings, paragraphs, and other text elements.
+Apply Bootstrap color classes to style links, buttons, and background colors.
+Utilize Bootstrap's text alignment and emphasis classes effectively.
+Create responsive tables with alternate row colors using Bootstrap's table classes.
+
+2. Enhancing Web Pages with Bootstrap Images and Layouts
 Objective:
-The aim of this assignment is to solidify the students' understanding and practical skills in utilizing Bootstrap's grid system to create 
-complex web layouts. The students will create a multi-section webpage that demonstrates the use of containers, rows, and columns within 
-the Bootstrap framework.
+The objective of this assignment is to enable students to incorporate images effectively and structure layouts using Bootstrap's image 
+and layout classes.
 
 Problem Statement:
 
-Modern web design requires a deep understanding of responsive grid layouts to ensure content is displayed effectively across 
-various devices. Students are tasked with constructing a webpage that features a variety of content sections, each with unique layout 
-challenges that must be addressed using Bootstrap’s grid containers.
+As a web developer, your task is to improve the visual appeal and layout structure of a basic web page by integrating images and 
+implementing responsive layouts using Bootstrap. You are required to understand how Bootstrap's image classes can enhance the presentation 
+of visual content and how its layout classes can facilitate responsive design. Note: You can enhance any of the pages created on previous 
+assignments or create a new one, it's up to you!
 
-Task 1: Header and Intro Section DONE
-Develop a header with a full-width background image and an introductory text section that is centered both vertically and 
-horizontally within the header.
+Task 1: Incorporate responsive images using Bootstrap's image classes. DONE
 
-Expected Outcome:
-A header section that stretches across the full width and height of the viewport with text content that remains centered on all screen sizes.
+Task 2: Create a grid layout for image gallery using Bootstrap's grid system. DONE
 
-Task 2: Featurette Section DONE
-Create a three-column section to showcase the company's key features. Each column should contain an icon/image, a heading, and a 
-paragraph of text.
+Task 3: Implement a responsive footer with relevant information and links. DONE
 
-Expected Outcome:
-A responsive featurette section with columns that stack on small screens and align side by side on larger screens, with consistent 
-spacing between them.
+Expected Outcomes:
+Upon completion of this assignment, students should be able to:
 
-Task 3: About Section with Sidebar DONE
-Design an 'About Us' section that includes a main content area and a sidebar. The main content should take up two-thirds of the width, 
-while the sidebar occupies one-third.
-
-Expected Outcome:
-An 'About Us' section that maintains a two-column layout on medium to large screens and collapses into a single column on smaller 
-screens, ensuring readability and accessibility.
-
-Task 4: Footer with Grid Layout
-Craft a footer that contains three equal-width columns for contact information, social media links, and a newsletter signup form.
-
-Expected Outcome:
-A footer that is responsive, with columns that are evenly distributed on larger screens and stack vertically in an organized manner on 
-smaller screens.
+Integrate responsive images using Bootstrap's image classes for improved visual presentation.
+Create grid layouts for image galleries using Bootstrap's grid system to organize visual content effectively.
+Implement responsive footers with relevant information and links using Bootstrap's footer component to enhance user experience.
