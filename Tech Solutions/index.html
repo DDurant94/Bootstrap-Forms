@@ -38,64 +38,112 @@
 
     </header>
 
+    <!-- navigation bar -->
+    <nav class="navbar navbar-expand-lg bg-dark border-bottom border-body" data-bs-theme="dark">
+
+      <div class="container-fluid">
+
+        <a class="nav-link active" aria-current="page" href="#index.html"><i class="fa fa-home" aria-hidden="true"></i></a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse object-fit-contain" id="navbarNavAltMarkup">
+
+          <div class="navbar-nav object-fit-contain">
+            <a class="nav-link" href="#services">Services</a>
+            <a class="nav-link" href="#service-form">Contact Form</a>
+            <a class="nav-link" href="#team">Meet The Team</a>
+            <a class="nav-link" href="#featurette">Featurette</a>
+            <a class="nav-link" href="#about-us">About Us</a>
+            <a class="nav-link" href="#team-in-action">Photo Gallery</a>
+            <a class="nav-link" href="#contact-info">Contact Info</a>
+            <a class="nav-link" href="#Socials">Social Media</a>
+          </div>
+
+        </div>
+
+      </div>
+      
+    </nav>
+
     <!-- services -->
     <section id="services" class="container-fluid">
 
       <!-- changed back ground for services available headings-->
       
+      <div class="container-center bg-light text-dark mb-3 rounded-3">
 
-      <div class="container text-center bg-light text-dark mb-3 rounded-3">
+        <h2 class="text-center bg-light text-dark mb-0 mt-3 p-3 h1">Services Available</h2>
 
-        <h2 class="container text-center bg-light text-dark mb-0 mt-3 p-3 h1">Services Available</h2>
+        <div class="container-fluid row g-3">
 
-        <div class="row g-3 ">
+          <div class="col-md-4 col-lg-4 mb-2 rounded-2">
 
-          <div class="col-md-4 col-lg-4 bg-info-subtle mb-2 rounded-2">
+            <div class="card container-fluid shadow">
 
-            <h3 class="text-center h2">Web Design</h3>
-            <img src="../images/services/web_dev.jpg" class="img-fluid shadow rounded" alt="web development team">
+              <img src="../images/services/web_dev.jpg" class="card-img-top img-fluid shadow mt-2" alt="web development team">
 
-            <div class="text-start text-body-emphasis">
+              <div class="card-body">
 
-              <p>
-                At Tech Solutions, our teams work diligently to transform your company's vision into a vibrant digital presence. 
-                We blend your company's philosophy and aesthetic seamlessly into dynamic, responsive websites that are intuitive for 
-                users of all ages and devices.
-              </p>
+                <h5 class="card-title">Web Design</h5>
+
+                <p class="card-text">
+                  At Tech Solutions, our teams work diligently to transform your company's vision into a vibrant digital presence. 
+                  We blend your company's philosophy and aesthetic seamlessly into dynamic, responsive websites that are intuitive for 
+                  users of all ages and devices.
+                </p>
+                <a href="#team" class="btn btn-info btn-outline-primary">Our Team Leads</a>
+
+              </div>
+
+            </div>
+
+          
+          </div>
+
+          <div class="col-sm-12 col-md-4 col-lg-4 mb-2 rounded-2">
+
+            <div class="card container-fluid shadow">
+
+              <img src="../images/services/cyber_security.jpg" class="card-img-top img-fluid shadow mt-2" alt="cyber security logo">
+
+              <div class="card-body">
+
+                <h5 class="card-title">Cyber Security</h5>
+
+                <p class="card-text">
+                  At Tech Solutions, you can rest easy when it comes to your cybersecurity needs. We work around the clock to ensure that you're always 
+                  protected. Our highly trained team is well-versed in the latest cyber threats and stays one step ahead. After all, hackers never take 
+                  days off—so why should we?
+                </p>
+                <a href="#team" class="btn btn-info btn-outline-primary">Our Team Leads</a>
+
+              </div>
 
             </div>
 
           </div>
-          <div class="col-sm-12 col-md-4 col-lg-4 bg-info mb-2 rounded-2">
 
-            <h3 class="text-center h2">Cyber Security</h3>
+          <div class="col-md-4 col-lg-4 mb-2 rounded-2">
 
-            <img src="../images/services/cyber_security.jpg" class="img-fluid shadow rounded" alt="cyber security logo">
+            <div class="card container-fluid shadow">
 
-            <div class="text-start text-body-emphasis">
+              <img src="../images/services/customesupport.jpg" class="card-img-top img-fluid shadow mt-2" alt="support team">
 
-              <p>
-                At Tech Solutions, you can rest easy when it comes to your cybersecurity needs. We work around the clock to ensure that you're always 
-                protected. Our highly trained team is well-versed in the latest cyber threats and stays one step ahead. After all, hackers never take 
-                days off—so why should we?
-              </p>
+              <div class="card-body">
 
-            </div>
+                <h5 class="card-title">Tech Support</h5>
 
-          </div>
-          <div class="col-md-4 col-lg-4 bg-info-subtle mb-2 rounded-2">
+                <p class="card-text">
+                  At Tech Solutions, when it comes to any tech-related problem, our team is here to help. Whether it's setting up a printer 
+                  or troubleshooting a server that has gone down, we offer a helping hand of expertise. We won't give up till the problem is
+                  resolved.
+                </p>
+                <a href="#team" class="btn btn-info btn-outline-primary">Our Team Leads</a>
 
-            <h3 class="text-center h2">Tech Support</h3>
-
-            <img src="../images/services/customesupport.jpg" class="img-fluid shadow rounded" alt="support team">
-            
-            <div class="text-start text-body-emphasis">
-
-              <p>
-                At Tech Solutions, when it comes to any tech-related problem, our team is here to help. Whether it's setting up a printer 
-                or troubleshooting a server that has gone down, we offer a helping hand of expertise. We won't give up till the problem is
-                resolved.
-              </p>
+              </div>
 
             </div>
 
@@ -105,9 +153,8 @@
 
       </div>
 
-
       <!-- services form  -->
-      <div class="container-fluid mt-8 bg-light text-dark shadow p-3 mb-5 bg-body-tertiary rounded">
+      <div id="service-form" class="container-fluid mt-8 bg-light text-dark shadow p-3 mb-5 bg-body-tertiary rounded">
 
         <form class="row g-1" id="form" method="post">
 
@@ -225,7 +272,7 @@
 
           <div class="col-12">
   
-            <button type="submit" class="btn btn-primary shadow" style="margin-bottom: 1%;">Submit</button>
+            <button type="submit" class="btn btn-primary btn-outline-info shadow" style="margin-bottom: 1%;">Submit</button>
   
           </div>
 
@@ -244,7 +291,7 @@
 
         <div class="container text-center">
 
-          <div class="row g-5">
+          <div class="row g-3">
 
             <div class="col-lg-4 col-md-4 mb-3 py-2 bg-info-subtle rounded shadow">
 
@@ -475,53 +522,56 @@
     </section>
 
     <!-- Photo gallery -->
-    <section>
+    <section id="team-in-action">
 
-      <div class="container-center bg-black m-2 p-3 rounded shadow">
+      <div class="container-fluid-center bg-black rounded shadow m-2 my-3">
 
-        <div class="row g-3">
+        <h2 class="text-center">Tech Solutions Teams In Action</h2>
 
-          <h2 class="text-center ">Tech Solutions Teams In Action</h2>
-
-          <div class="col-sm-4">
-
-              <img src="../images/photo_gallery/brooke-cagle.jpg" class="img-fluid shadow rounded" alt="Image 1">
-
+        <div id="carouselExampleFade" class="carousel slide carousel-fade m-2">
+          <div class="carousel-inner">
+  
+            <div class="carousel-item active">
+              <img src="../images/photo_gallery/brooke-cagle.jpg" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="../images/photo_gallery/thisisengineering.jpg" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="../images/photo_gallery/arlington-research.jpg" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="../images/photo_gallery/jefferson-santos.jpg" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="../images/photo_gallery/christina-wocintechchat-2.jpg" class="d-block w-100" alt="...">
+            </div>
+  
+            <div class="carousel-item">
+              <img src="../images/photo_gallery/headway.jpg" class="d-block w-100" alt="...">
+            </div>
+            
           </div>
-
-          <div class="col-sm-4">
-
-              <img src="../images/photo_gallery/thisisengineering.jpg" class="img-fluid shadow rounded" alt="Image 2">
-
-          </div>
-
-          <div class="col-sm-4">
-
-              <img src="../images/photo_gallery/arlington-research.jpg" class="img-fluid shadow rounded" alt="Our Support staff">
-
-          </div>
-
-          <div class="col-sm-4">
-
-            <img src="../images/photo_gallery/jefferson-santos.jpg" class="img-fluid shadow rounded" alt="">
-
-          </div>
-
-          <div class="col-sm-4">
-
-            <img src="../images/photo_gallery/christina-wocintechchat-2.jpg" class="img-fluid shadow rounded" alt="">
-
-          </div>
-
-          <div class="col-sm-4">
-
-            <img src="../images/photo_gallery/headway.jpg" class="img-fluid shadow rounded" alt="">
-
-          </div>
+  
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+  
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleFade" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+  
+        </div>
 
       </div>
 
-    </div>
+
 
     </section>
 
@@ -533,7 +583,7 @@
         <div class="row g-3 mt-1">
 
           <!-- contact us number and email -->
-          <div class="col-lg-4 col-md-4 mb-2">
+          <div class="col-lg-4 col-md-4 mb-2" id="contact-info">
             Contact Information
 
             <div class="container text-center w-100">
@@ -565,7 +615,7 @@
           </div>
 
           <!-- socials -->
-          <div class="col-lg-4 col-md-4 bg-light text-dark mb-2 rounded-2">
+          <div class="col-lg-4 col-md-4 bg-light text-dark mb-2 rounded-2" id="socials">
             Social Media
 
             <div class="container text-center fs-3">
